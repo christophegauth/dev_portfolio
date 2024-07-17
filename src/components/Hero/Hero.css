@@ -1,0 +1,162 @@
+.hero_box{
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+	align-items: center;
+  width: 100%;
+  margin: auto;
+  padding: 30px 150px;
+}
+
+.text_box{
+	flex-basis: 50%;
+}
+
+.text_box h1{
+  font-family: 'Bebas Neue';
+  font-size: 70px;
+  font-weight: 400;
+}
+
+.text_box p{
+  font-family: 'Manrope';
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  max-width: 500px;
+}
+
+.action{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.action .button{
+  display: flex;
+  align-items: center;
+  background-color: #D3E97A;
+  border-radius: 100px;
+  padding: 10px 24px;
+  gap: 12px;
+  border: none;
+  outline: none;
+  color: #0a0a0a;
+}
+
+.button button{
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: #0a0a0a;
+  font-family: 'Manrope';
+  font-weight: 700;
+  font-size: 16px;
+}
+.button span{
+  border-radius: 50%;
+  display: inline-block;
+  height: 16px;
+  width: 16px;
+  background-color: #0a0a0a;
+  margin: auto;
+}
+
+.action a{
+  border-radius: 50%;
+  background-color: #222;  
+  height: 54px;
+  width: 54px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img_box{
+  display: flex;
+  justify-content: flex-end;
+	flex-basis: 50%;
+}
+
+.img_box img{
+	width: 75%;
+}
+
+
+/* responsive */
+
+@media screen and (max-width: 375px) {
+  .hero_box{
+    padding: 0px 30px;
+  }
+
+  .text_box{
+    flex-basis: 100%;
+  }
+
+  .text_box h1{
+    font-family: 'Bebas Neue';
+    font-size: 57px;
+    font-weight: 400;
+  }
+
+  .text_box p{
+    font-size: 16px;
+  }
+  
+  .action{
+    margin-top: -30px;
+  }
+  
+  .img_box{
+    display: flex;
+    justify-content: center;
+    flex-basis: 100%;
+    margin-top: 80px;
+  }
+
+  .img_box img{
+    width: 100%;
+    height: 410px;
+    object-fit: cover;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .hero_box{
+    padding: 0px 20px;
+  }
+
+  .text_box{
+    flex-basis: 100%;
+  }
+
+  .text_box h1{
+    font-family: 'Bebas Neue';
+    font-size: 57px;
+    font-weight: 400;
+  }
+
+  .text_box p{
+    font-size: 16px;
+  }
+  
+  .action{
+    margin-top: -30px;
+  }
+  
+  .img_box{
+    display: flex;
+    justify-content: center;
+    flex-basis: 100%;
+    margin-top: 80px;
+  }
+
+  .img_box img{
+    width: 100%;
+    height: 410px;
+    object-fit: cover;
+  }
+}

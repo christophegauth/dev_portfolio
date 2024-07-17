@@ -1,0 +1,76 @@
+.about_me{
+  padding: 70px 150px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #222;
+  width: 100%;
+}
+
+.about_me h2{
+  font-family: 'Manrope';
+  font-weight: 600;
+  font-size: 42px;
+}
+
+.textt_box h3{
+  font-family: 'Manrope';
+  font-weight: 500;
+  font-size: 25px;
+  margin-bottom: 15px;
+  line-height: 27px;
+}
+
+.textt_box p{
+  font-family: 'Manrope';
+  font-size: 15px;
+  font-weight: 400;
+  color: #c7c7c7;
+  max-width: 600px;
+  margin-bottom: 45px;
+}
+
+.textt_box a{
+  color: #D3E97A;
+  border-bottom: 2px solid #D3E97A;
+  font-family: 'Manrope';
+}
+
+/* reponsive */
+
+@media screen and (max-width: 375px) {
+  .about_me{
+    padding: 70px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .about_me h2{
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  
+  .textt_box h3 br{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .about_me{
+    padding: 70px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .about_me h2{
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  
+  .textt_box h3 br{
+    display: none;
+  }
+}

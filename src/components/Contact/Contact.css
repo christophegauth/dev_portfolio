@@ -1,0 +1,195 @@
+.contact_me{
+  display: flex;
+  justify-content: space-between;
+  padding: 70px 150px;
+  width: 100%;
+}
+
+.contact_me h2{
+  font-family: 'Manrope';
+  font-weight: 600;
+  font-size: 42px;
+  margin-bottom: 6px;
+}
+
+.contact_me p{
+  font-family: 'Manrope';
+  font-size: 15px;
+  font-weight: 400;
+  color: #c7c7c7;
+  max-width: 600px;
+  margin-bottom: 8px;
+}
+
+.connect p a{
+  font-family: 'Manrope';
+  font-size: 15px;
+  font-weight: 400;
+  color: #c7c7c7;
+  max-width: 600px;
+  border-bottom: 1px solid #D3E97A;
+}
+
+.social_media{
+  margin-top: 25px;
+  margin-bottom: 90%;
+}
+
+.connect{
+  flex-basis: 50%;
+}
+.connect a{
+  margin-right: 20px;
+}
+
+.touch{
+  width: 100%;
+}
+form{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 16px;
+}
+
+form label{
+  font-family: 'Manrope';
+  font-size: 18px;
+  font-weight: 400;
+  color: #c7c7c7;
+}
+
+form input{
+  border: none;
+  outline: none;
+  background-color: #1a1a1a;
+  padding: 12px 16px;
+  border-radius: 4px;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: 'Manrope';
+  margin-top: 10px;
+  width: 500px;
+}
+
+form textarea{
+  border-radius: 4px;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: 'Manrope';
+  border: none;
+  outline: none;
+  background-color: #1a1a1a;
+  padding: 12px 16px;
+  resize: none;
+  overflow: hidden;
+  margin-top: 10px;
+  width: 500px;
+  height: 110px;
+}
+
+form button{
+  background-color: #D3E97A;
+  outline: none;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 100px;
+  color: #0a0a0a;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.last{
+  display: none;
+}
+
+/* reponsive */
+
+@media screen and (max-width: 375px) {
+  .contact_me{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 70px 30px;
+  }
+
+  .touch{
+    width:100%;
+  }
+
+  .social_media{
+    margin-top: 25px;
+    margin-bottom: 11%;
+  }
+  
+  .contact_me h2{
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 6px;
+  }
+
+  .connect span{
+    display: none;
+  }
+  
+
+  form input{
+    max-width: 315px;
+  }
+
+  form textarea{
+    max-width: 315px;
+    height: 160px;
+  }
+
+  .last{
+    display: block;
+    margin-top: 25px;
+  }
+}
+
+
+@media screen and (max-width: 430px) {
+  .contact_me{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 70px 20px;
+  }
+
+  .touch{
+    overflow: hidden;
+  }
+
+  .social_media{
+    margin-top: 25px;
+    margin-bottom: 11%;
+  }
+  
+  .contact_me h2{
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 6px;
+  }
+
+  .connect span{
+    display: none;
+  }
+  
+
+  form input{
+    max-width: 480px;
+  }
+
+  form textarea{
+    max-width: 480px;
+    height: 160px;
+  }
+
+  .last{
+    display: block;
+    margin-top: 25px;
+  }
+}
