@@ -105,13 +105,13 @@ form button{
 
 /* reponsive */
 
-@media screen and (max-width: 375px) {
+@media screen and (min-width: 300px) and (max-width: 500px) {
   .contact_me{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
-    padding: 70px 30px;
+    padding: 70px 20px;
   }
 
   .touch{
@@ -133,13 +133,18 @@ form button{
     display: none;
   }
   
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
 
   form input{
-    max-width: 315px;
+    width: 320px;
   }
 
   form textarea{
-    max-width: 315px;
+    width: 320px;
     height: 160px;
   }
 
@@ -150,7 +155,7 @@ form button{
 }
 
 
-@media screen and (max-width: 430px) {
+/* @media screen and (max-width: 430px) {
   .contact_me{
     display: flex;
     flex-direction: column;
@@ -177,19 +182,24 @@ form button{
   .connect span{
     display: none;
   }
-  
-
-  form input{
-    max-width: 480px;
-  }
-
-  form textarea{
-    max-width: 480px;
-    height: 160px;
-  }
 
   .last{
     display: block;
     margin-top: 25px;
   }
-}
+
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  form input{
+    width: 320px;
+  }
+
+  form textarea{
+    width: 320px;
+    height: 160px;
+  }
+} */

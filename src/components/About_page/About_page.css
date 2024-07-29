@@ -108,7 +108,7 @@
 
 /* reponsive */
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 375px) and (max-width: 450px) {
   .img_boxx img{
     padding: 30px;
   }
@@ -155,7 +155,7 @@
 }
 
 
-@media screen and (max-width: 430px) {
+/* @media screen and (max-width: 430px) {
   .img_boxx img{
     padding: 20px;
   }
@@ -199,4 +199,4 @@
   .fd{
     
   }
-}
+} */
